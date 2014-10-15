@@ -101,6 +101,7 @@ $.simplyScroll = function(el,options) {
 		//wait for load before completing setup
 		$(window).load(function() { self.init();  });
 	}
+	return this;
 		
 };
 	
